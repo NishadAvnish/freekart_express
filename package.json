@@ -5,7 +5,7 @@
   "main": "app.js",
   "type": "module",
   "scripts": {
-    "start": "nodemon -r dotenv/config --experimental-json-modules app.js"
+    "start": "nodemon -r dotenv/config --experimental-json-modules ./src/index.js"
   },
   "author": "Avnish Nishad",
   "license": "ISC",
